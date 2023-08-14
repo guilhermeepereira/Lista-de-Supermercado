@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Lista de Supermercado</title>
+</head>
+<body>
+    <main>
+        <section>
+            <div class="header">
+                <h3>LISTA DE SUPERMERCADO</h3>
+            </div>
+            <div class="cad">
+                    <div class="input-field">
+                        <input type="text" placeholder="Item..." id="item" required>
+                    </div>
+                    <div class="input-field">
+                        <input type="number" placeholder="Preço..." id="preco" required>
+                    </div>
+                    <div class="add">
+                        <button class="adicionar" type="submit" id="add">Adicionar</button>
+                    </div>
+            </div>
+            <div class="lista" id="list">
+
+            </div>
+            <div class="total">
+                <h3>Total:</h3>
+                <p id="result">R$0</p>
+            </div>
+            <div class="limp">
+                <button id="limp" class="limpar" type="submit">Limpar carrinho!</button>
+            </div>
+        </section>
+    </main>
+    <script src="assets/script.js"></script>
+</body>
+</html>

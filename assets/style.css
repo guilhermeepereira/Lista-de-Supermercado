@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+main > section{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(44, 137, 231);
+    padding: 80px 30px;
+    gap: 10px;
+    box-shadow: 2px 2px 15px black;
+    border: none;
+    border-radius: 13px;
+    color: aliceblue;
+}
+.cad{
+    display: flex;
+    gap: 1px;
+}
+.input-field input{
+    height: 28px;
+    padding-left: 7px;
+    border: none;
+    border-radius: 3px;
+}
+.input-field input:focus{
+    outline: none;
+}
+.add button{
+    cursor: pointer;
+    height: 28px;
+    padding: 2px 5px;
+    font-size: 12px;
+}
+#preco{
+    width: 85px;
+}
+.lista{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 3px;
+}
+.lista-single{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-bottom:1px solid #ccc;
+}
+.lista .preco{
+    font-size: 14px;
+    background-color: rgba(0, 0, 255, 0.396);
+    padding: 3.5px;
+    border-radius: 6px;
+}
+.limpar{
+    width: 100%;
+    height: 28px;
+    font-weight: bold;
+    color: rgb(225, 33, 33);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.limpar:hover{
+    scale: 1.02;
+    background-color: rgb(225, 33, 33);
+    color: aliceblue;
+}
